@@ -85,9 +85,7 @@ Pocket.xcodeproj/         Open this to play with the prototype
 
 ## ▸ A note from the asset lab
 
-The bundled cartridges are **original procedural placeholders** with typographic labels and simple backs. No Sketchfab models, Pokémon character illustrations, ROMs or game audio are included. Mascots are named in text.
-
-The [reference collection by Karena Williams](https://sketchfab.com/Karenawilliams/collections/pokemon-game-boy-cartridges-1a1f1a1bef6241a19137f2097abb9395) contains Red, Blue and Yellow cartridge models. Its public metadata, checked on **28 October 2026**, marks all three **Editorial** and **not downloadable**. These are not bundled or treated as freely reusable assets.
+The bundled cartridges are **original procedural placeholders** with typographic labels and simple backs. No Sketchfab models, Pokémon character illustrations, ROMs or game audio are included. The app icon is AI-generated artwork inspired by a retro cartridge. Mascots are named in text.
 
 Have models you’re permitted to use? The scene can load `CartridgeRed.usdz`, `CartridgeBlue.usdz` and `CartridgeYellow.usdz` from the app bundle. Missing or invalid imports retain their placeholders. Follow [the asset import guide](ASSET-IMPORT.md), including adding the files to the app target’s resources and updating credits.
 

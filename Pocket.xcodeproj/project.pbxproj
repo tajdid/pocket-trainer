@@ -1,5 +1,7 @@
 // !$*UTF8*$!
 { archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+B20743AB30C94B22981A01AA = { isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Pocket/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
+B20743AB30C94B22981A01AB = { isa = PBXBuildFile; fileRef = B20743AB30C94B22981A01AA; };
 13F1E01D61A44450A7C48DBD = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PocketUITests/PocketUITests.swift"; sourceTree = SOURCE_ROOT; };
 1A50D2E9613B460C811CE356 = { isa = PBXBuildFile; fileRef = 13F1E01D61A44450A7C48DBD; };
 6CFCA29B2A0240AFA58CB58C = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (1A50D2E9613B460C811CE356,); runOnlyForDeploymentPostprocessing = 0; };
@@ -32,14 +34,14 @@ E6518641A57342B482EF88D4 = { isa = PBXFileReference; lastKnownFileType = sourcec
 27ACCFB78C76449FBEC16990 = { isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pocket/PocketApp.swift"; sourceTree = SOURCE_ROOT; };
 C2EDF287725D45B2B53019DA = { isa = PBXBuildFile; fileRef = 27ACCFB78C76449FBEC16990; };
 0A952CB3A5B64FE889C90E79 = { isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (6BE8B3DE98024959971BD5CC,46039075C7BF405AB2C089BC,C2EDF287725D45B2B53019DA,); runOnlyForDeploymentPostprocessing = 0; };
-F7210DA7FBC54D8F89B5ACEC = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+F7210DA7FBC54D8F89B5ACEC = { isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (B20743AB30C94B22981A01AB,); runOnlyForDeploymentPostprocessing = 0; };
 24A4EB1E81194EB5B5A93CC8 = { isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
 1F2E9AA0E84040FF9599BCB4 = { isa = PBXFileReference; explicitFileType = wrapper.application; path = Pocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 EC79B595B34D4FBEB3EDB008 = { isa = PBXGroup; children = (8D89ECE2E71F41F59287A2DA,1F2E9AA0E84040FF9599BCB4,); name = Products; sourceTree = "<group>"; };
-44FA2526079A48F1B3ADB9E6 = { isa = PBXGroup; children = (13F1E01D61A44450A7C48DBD,00CD278FCB814EB8A6BB23F6,E6518641A57342B482EF88D4,27ACCFB78C76449FBEC16990,EC79B595B34D4FBEB3EDB008,); sourceTree = "<group>"; };
+44FA2526079A48F1B3ADB9E6 = { isa = PBXGroup; children = (B20743AB30C94B22981A01AA,13F1E01D61A44450A7C48DBD,00CD278FCB814EB8A6BB23F6,E6518641A57342B482EF88D4,27ACCFB78C76449FBEC16990,EC79B595B34D4FBEB3EDB008,); sourceTree = "<group>"; };
 A3B5007B97E540F2A2247366 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG; SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 18.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; }; };
 F29EF8C3152347E683F75397 = { isa = XCBuildConfiguration; name = Debug; buildSettings = { SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
- PRODUCT_NAME = Pocket; PRODUCT_BUNDLE_IDENTIFIER = studio.weeinteractions.Pocket;
+ ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; PRODUCT_NAME = Pocket; PRODUCT_BUNDLE_IDENTIFIER = studio.weeinteractions.Pocket;
  GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Pocket Trainer";
  INFOPLIST_FILE = Pocket/Info.plist; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
  INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
@@ -49,7 +51,7 @@ F29EF8C3152347E683F75397 = { isa = XCBuildConfiguration; name = Debug; buildSett
  }; };
 5A120755522F42898B0C65B8 = { isa = XCBuildConfiguration; name = Release; buildSettings = { SDKROOT = iphoneos; IPHONEOS_DEPLOYMENT_TARGET = 18.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; }; };
 E8B76240AB5E4B048E9698CF = { isa = XCBuildConfiguration; name = Release; buildSettings = {
- PRODUCT_NAME = Pocket; PRODUCT_BUNDLE_IDENTIFIER = studio.weeinteractions.Pocket;
+ ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; PRODUCT_NAME = Pocket; PRODUCT_BUNDLE_IDENTIFIER = studio.weeinteractions.Pocket;
  GENERATE_INFOPLIST_FILE = YES; INFOPLIST_KEY_CFBundleDisplayName = "Pocket Trainer";
  INFOPLIST_FILE = Pocket/Info.plist; INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
  INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;

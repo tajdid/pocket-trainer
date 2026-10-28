@@ -35,3 +35,5 @@ Details-Red.png, Details-Blue.png and Details-Yellow.png were exported from the 
 Still not assessed on a physical device: haptics, sustained performance, and real VoiceOver navigation. The earlier welcome screenshot was removed because it is no longer part of the app.
 
 Pocket Trainer rename: wordmark, information-sheet identity and both app display-name configurations updated. Simulator build passed. Bundle identifier and project paths remain stable so existing installs update in place.
+
+App icon revision: the universal iOS AppIcon asset is an opaque 1024 × 1024 PNG. Asset catalog compilation and simulator build passed. AppIcon is selected in Debug and Release. The specified reference-collection paragraph was removed from README.md. Generation prompt and artwork provenance are recorded in APP-ICON.md.

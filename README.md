@@ -32,12 +32,12 @@ The collection follows your finger, settles into place with a damped spring, and
 
 ## ▸ Take a closer look
 
-Tap the selected cartridge. It moves into focus, the neighboring versions fade, and a compact game detail screen unfolds around it. The **same RealityKit scene stays alive** through the transition.
+Tap the selected cartridge to open a rounded native detail sheet over the collection. The sheet has a drag handle, an expandable height and a single scrolling page containing the 3D preview and game information. The collection pauses behind it and preserves your selection.
 
 - **Drag to rotate.** Inspect the cartridge in 3D.
 - **FLIP.** Turn it over to see the back.
 - **Explore the story.** Read a short introduction, a few game facts, its mascot name and a little trivia.
-- **Back to collection.** Return using the arrow, the bottom button, or a downward swipe on the heading. Your selection stays where you left it.
+- **Back to collection.** Return using Close, the bottom button, or a downward swipe on the sheet. Your selection stays where you left it.
 
 <div align="center">
 <img src="Details-Red.png" alt="Red version game details" width="220">
@@ -66,7 +66,7 @@ The app opens straight into the collection. There is no onboarding gate or first
 | PART | BUILT WITH |
 | :--- | :--- |
 | Interface | SwiftUI · system sans-serif · monospace details |
-| Cartridges | RealityKit · non-AR `ARView` · procedural 3D geometry |
+| Cartridges | RealityKit carousel · SceneKit sheet preview · procedural 3D geometry |
 | Movement | Finger-following carousel · end resistance · spring settling |
 | Feedback | Native selection and soft impact haptics |
 | Accessibility | Adjustable cartridge control · explore/flip actions · Reduce Motion support |
@@ -85,7 +85,7 @@ Pocket.xcodeproj/         Open this to play with the prototype
 
 ## ▸ A note from the asset lab
 
-The bundled cartridges are **original procedural placeholders** with typographic labels and simple backs. No Sketchfab models, Pokémon character illustrations, ROMs or game audio are included. The app icon is AI-generated artwork inspired by a retro cartridge. Mascots are named in text.
+The bundled cartridges are **original procedural placeholders** with typographic labels and simple backs. No ROMs or game audio are included. Original Yellow-era mascot sprites are bundled from [PokéAPI’s sprite collection](https://github.com/PokeAPI/sprites). The app icon is AI-generated artwork inspired by a retro cartridge. Each mascot name is paired with its pixel sprite.
 
 Have models you’re permitted to use? The scene can load `CartridgeRed.usdz`, `CartridgeBlue.usdz` and `CartridgeYellow.usdz` from the app bundle. Missing or invalid imports retain their placeholders. Follow [the asset import guide](ASSET-IMPORT.md), including adding the files to the app target’s resources and updating credits.
 
